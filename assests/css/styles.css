@@ -1,0 +1,16 @@
+.banner-section {
+  height: 100vh;
+  background-color: black;
+  background-image: url("/assests/images/banner1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcome,
+.why-us,
+.nursery-intro {
+  padding: 4% 8%;
+}
+.fas {
+  font-size: 44px;
+}
