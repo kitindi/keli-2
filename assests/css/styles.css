@@ -1,3 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 .banner-section {
   height: 100vh;
   background-color: black;
@@ -8,9 +18,83 @@
 }
 .welcome,
 .why-us,
-.nursery-intro {
-  padding: 4% 8%;
+.nursery-intro,
+.footer,
+.testmonial,
+.nursery-banner,
+.services,
+.programs,
+.stem {
+  padding: 6% 8%;
 }
 .fas {
   font-size: 44px;
+  color: #8a5d3b;
+}
+.nursery-intro {
+  background-color: #bac639;
+}
+.why-card {
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .ps {
+    padding-left: 5rem;
+  }
+}
+
+.heading {
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.heading::after {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  content: "";
+  height: 5px;
+  width: 100px;
+  background-color: #8a5d3b;
+}
+.footer,
+.why-us {
+  background-color: #f3f4f6;
+}
+.footer a {
+  color: #333;
+  .nursery-intro {
+  }
+
+  /* NURSERY PAGE */
+  .nursery-banner {
+    height: 30vh;
+  }
+  .quarter-dv {
+    background-color: #8a5d3b;
+  }
+
+  .services {
+  }
+}
+.listings {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  width: 10px;
+  height: 10px;
+  background-color: #8a5d3b;
+  margin-right: 10px;
+}
+
+.video-banner {
+  top: 30px;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
