@@ -24,7 +24,9 @@ a {
 .nursery-banner,
 .services,
 .programs,
-.stem {
+.stem,
+.admission,
+.vision {
   padding: 6% 8%;
 }
 .fas {
@@ -97,4 +99,7 @@ a {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+}
+.donate {
+  background-color: #00dd39;
 }
