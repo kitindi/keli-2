@@ -220,6 +220,9 @@ p {
 }
 
 .footer {
-  padding: 1% 8%;
+  padding: 3% 8%;
   background-color: #f9fafb;
+}
+.contact-page {
+  margin-bottom: 2rem;
 }
