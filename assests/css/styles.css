@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  color: #334155;
 }
 
 ul {
@@ -15,28 +16,47 @@ p {
   line-height: 1.8;
 }
 .banner-section {
-  height: 100vh;
-  background-color: black;
+  height: 80vh;
+  /* background-color: black;
   background-image: url("/assests/images/banner1.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #bef264;
 }
-
+.banner-content {
+  background-color: #f4f4f5;
+  padding: 20px;
+}
+.cta-banner {
+  margin-top: 15px;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #8a5d3b;
+  color: #fff;
+}
+.cta-banner:hover {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #8a5d3b;
+  color: #fff;
+}
 .fs {
   font-size: 17px;
 }
 .welcome,
 .why-us,
 .nursery-intro,
-.footer,
 .testmonial,
 .nursery-banner,
 .services,
 .programs,
 .stem,
 .admission,
-.vision {
+.vision,
+.entrepreneurship {
   padding: 6% 8%;
 }
 .fas {
@@ -45,10 +65,13 @@ p {
 }
 
 .nursery-intro {
-  background-color: #bac639;
+  background-color: #bef264;
+  background-color: #fff;
 }
 .why-card {
   background-color: #fff;
+  background-color: #bef264;
+  border-radius: 10px;
 }
 
 @media (min-width: 768px) {
@@ -60,6 +83,11 @@ p {
 .heading {
   margin-bottom: 3rem;
   position: relative;
+  color: #334155;
+}
+.heading-1 {
+  margin-bottom: 5rem;
+  color: #334155;
 }
 
 .heading::after {
@@ -167,12 +195,13 @@ p {
 
 .hero-program {
   margin-bottom: 4rem;
-  background-color: #f3f4f6;
+  /*  */
+  background-color: #bef264;
 }
 .hero-program h2,
 .nursery-banner h2 {
-  color: #84cc16;
-  font-size: 34px;
+  color: #000;
+  /* font-size: 34px; */
 }
 .hero-program p,
 .nursery-banner .intro {
@@ -184,10 +213,28 @@ p {
 }
 .program {
   padding: 4% 12%;
-  background-color: #bef264;
+  background-color: #fff;
 }
 .enroll-btn {
   border: none;
-  background-color: #fff;
+  background-color: #bef264;
   padding: 10px 54px;
+}
+.right {
+  background-color: #f3f4f6;
+  padding: 2px;
+}
+
+.entrepreneurship {
+  height: 90vh;
+  padding: 4% 8%;
+}
+.contact-title {
+  font-size: 72px;
+  letter-spacing: 1;
+}
+
+.footer {
+  padding: 1% 8%;
+  background-color: #f9fafb;
 }
