@@ -80,26 +80,11 @@ p {
   }
 }
 
-.heading {
-  margin-bottom: 3rem;
-  position: relative;
-  color: #334155;
-}
 .heading-1 {
   margin-bottom: 5rem;
   color: #334155;
 }
 
-.heading::after {
-  position: absolute;
-  left: 0;
-  top: 50px;
-  content: "";
-  height: 2px;
-  width: 100px;
-  background-color: #8a5d3b;
-  background-color: #bac639;
-}
 .footer,
 .why-us {
   background-color: #f3f4f6;
