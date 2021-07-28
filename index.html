@@ -20,6 +20,10 @@
       integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
       crossorigin="anonymous"
     />
+        <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <!-- scroll -->
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -27,9 +31,9 @@
   </head>
   <body>
     <!-- Header -->
-    <section id="header">
+    <section id="header" class="shadow-sm ">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light ">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img src="./assests//images/keli_logo.svg" alt="" />
@@ -49,7 +53,7 @@
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                   <a
-                    class="nav-link active fw-bold"
+                    class="nav-link active fw-bold fs"
                     aria-current="page"
                     href="#about"
                     >About</a
@@ -57,7 +61,7 @@
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link active fw-bold"
+                    class="nav-link active fw-bold fs"
                     aria-current="page"
                     href="./nursery.html"
                     >Nursery School</a
@@ -65,7 +69,7 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle fw-bold"
+                    class="nav-link dropdown-toggle fw-bold text-dark fs"
                     href="#"
                     id="navbarDropdownMenuLink"
                     role="button"
@@ -79,12 +83,12 @@
                     aria-labelledby="navbarDropdownMenuLink"
                   >
                     <li>
-                      <a class="dropdown-item fw-bold" href="#"
+                      <a class="dropdown-item fw-bold  fs" href="/enrichment.html"
                         >Enrichment Program</a
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item fw-bold" href="#"
+                      <a class="dropdown-item fw-bold fs" href="#"
                         >Entrepreneurship</a
                       >
                     </li>
@@ -92,14 +96,14 @@
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link active fw-bold"
+                    class="nav-link active fw-bold fs"
                     aria-current="page"
                     href="#"
                     >Contact Us</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="btn btn-dark fw-bold" href="#">Donate Today</a>
+                  <a class="btn fw-bold cta" href="#">Donate Today</a>
                 </li>
               </ul>
             </div>
@@ -226,28 +230,42 @@
               <p>We at Kibogoji are moving into the future to enhance the positive and professional relationships within the Turiani community. Our mission is to cultivate a society that respects and nurtures the learner's rights in an environment that fosters life-long learning through collaboration, compassion, creativity, wonder, and curiosity.
 </p>
             </p>
-            <a href="./nursery.html" class="btn btn-dark">Learn more</a>
+            <a href="./nursery.html" class="btn cta">Learn more</a>
           </div>
         </div>
       </div>
     </section>
     <section class="vision">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6">  <h2 class="heading">Our Vision</h2></div>
+        <div class="row py-3">
+          <div class="col-md-6">  <h2 class="heading">Facilities Upgrade</h2></div>
           <div class="col-md-6"></div>
         </div>
         <div class="row">
-
+          <div class="col-md-5">
+            <p>As the school continues to grow, we can look forward to some exciting developments. The brand-new, purpose-built classroom and administration blocks to offer an ideal environment for both social interaction and study, with access to school facilities. We welcome you join hands to support the development plans.</p>
+             <a href="" class="btn w-50 p-2 mb-5 cta">Donate Today</a>
+          </div>
+          <div class="col-md-7">
+            <div class=" row">
+             <div class="col-md-6"> <img src="./assests/images/kibogoji5-1.jpeg" alt="" class="img-fluid"></div>
+             <div  class="col-md-6"><img src="./assests/images/kibogoji2.jpeg" alt="" class="img-fluid"></div>
+             <div  class="col-md-6"><img src="./assests/images/kibogoji-2.jpeg" alt="" class="img-fluid"></div>
+             <div  class="col-md-6"><img src="./assests/images/kibogoji4-1.jpeg" alt="" class="img-fluid"></div>
+          </div>
         </div>
       </div>
     </section>
     <!-- Testimonial -->
     <section class="testmonial">
         <div class="container">
+          <div class="row py-3">
+          <div class="col-md-6">  <h2 class="heading">What Parents says</h2></div>
+          <div class="col-md-6"></div>
+          </div>
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">What Parents says</h2>
+                   
                 </div>
                 <div class="col-md-8 pt-5">
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -262,7 +280,7 @@
                         <div class="card-body">
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                              <p class="card-text"><small class="text-muted">Abdulaziz Sadi</small></p>
-                <p class="card-text"><small class="text-muted">Morogoro</small></p>
+                            <p class="card-text"><small class="text-muted">Morogoro</small></p>
                         </div>
                         </div>
                     </div>
@@ -310,36 +328,45 @@
         </div>
     </section>
     <!-- footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <a class="navbar-brand" href="#">
+   <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <a class="navbar-brand" href="/index.html">
               <img src="./assests//images/keli_logo.svg" alt="" />
-            </a> 
-            
+            </a>
+          </div>
+          <div class="col-md-4 pt-2 d-flex flex-column">
+            <p class="fw-bold fs-5">Address</p>
 
-                </div>
-                <div class="col-md-6 pt-2 d-flex flex-column"><p  class="fw-bold fs-5">Address</p>
-                
-            <p class="small">Kibogoji Experiential Learning Inc<br>
-                    P.O Box ----,<br>
-                Turiani, Morogoro<br>
-                    Tanzania.</p>
-            <p class="small">Phone no.</p>
-            <p class="small">Mobile no.</p>
-                </div>
-                <div class="col-md-3 pt-2 d-flex flex-column"><p  class="fw-bold fs-5">Useful Links</p>
-                
-                    <a href="" class="small">About Us</a>
-                    <a href="./nursery.html" class="small">Nursery School</a>
-                    <a href="" class="small">Admission</a>
-                    <a href="" class="small">Programs</a>
-                    <a href="" class="small">Contact Us</a>
-                </div>
-                
-             </div>                
+            <p class="small">
+              Kibogoji Experiential Learning Inc<br />
+              P.O Box ----,<br />
+              Turiani, Morogoro<br />
+              Tanzania.<br>
+              Phone no:<br>
+              Mobile no:
+            </p>
+          </div>
+          <div class="col-md-3 pt-2 d-flex flex-column">
+            <p class="fw-bold fs-5">Useful Links</p>
+
+            <a href="" class="small">About Us</a>
+            <a href="./nursery.html" class="small">Nursery School</a>
+            <a href="" class="small">Admission</a>
+            <a href="" class="small">Programs</a>
+            <a href="" class="small">Contact Us</a>
+          </div>
+          <div class="col-md-3 pt-2 d-flex flex-column">
+            <p class="fw-bold fs-5">Follow us</p>
+
+            <a href="" class="small"><i class="fab fa-twitter-square fa-2x" style="color:#bac639"></i></a>
+            <a href="" class="small"><i class="fab fa-instagram-square fa-2x" style="color:#bac639"></i></a>
+           
+           
+          </div>
         </div>
+      </div>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

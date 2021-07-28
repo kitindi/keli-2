@@ -1,12 +1,18 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+}
 
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
+}
+p {
+  font-size: 18px;
+  line-height: 1.8;
 }
 .banner-section {
   height: 100vh;
@@ -15,6 +21,10 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.fs {
+  font-size: 17px;
 }
 .welcome,
 .why-us,
@@ -33,6 +43,7 @@ a {
   font-size: 44px;
   color: #8a5d3b;
 }
+
 .nursery-intro {
   background-color: #bac639;
 }
@@ -56,9 +67,10 @@ a {
   left: 0;
   top: 50px;
   content: "";
-  height: 5px;
+  height: 2px;
   width: 100px;
   background-color: #8a5d3b;
+  background-color: #bac639;
 }
 .footer,
 .why-us {
@@ -72,6 +84,7 @@ a {
   /* NURSERY PAGE */
   .nursery-banner {
     height: 30vh;
+    background-color: #f3f4f6;
   }
   .quarter-dv {
     background-color: #8a5d3b;
@@ -79,6 +92,9 @@ a {
 
   .services {
   }
+}
+.footer {
+  background-color: #fff;
 }
 .listings {
   padding: 5px 0;
@@ -100,6 +116,78 @@ a {
   min-width: 100%;
   min-height: 100%;
 }
-.donate {
-  background-color: #00dd39;
+
+.card {
+  background-color: #f3f4f6;
+}
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+}
+.cta {
+  background-color: #bac639;
+  color: #fff;
+}
+.cta:hover {
+  background-color: #8a5d3b;
+  color: #fff;
+}
+
+.order {
+  width: 30px;
+  height: 30px;
+  padding: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  color: #fff;
+  margin-right: 15px;
+  background-color: #8a5d3b;
+}
+.admission {
+  background-color: #f3f4f6;
+}
+.downloads {
+  border-bottom: 3px solid #bac639;
+  background-color: #fff;
+  cursor: pointer;
+}
+.downloads:hover {
+  border-bottom: 3px solid #bac639;
+  background-color: #bac639;
+  color: #fff;
+}
+
+.dropdown-menu a:active {
+  background-color: #f3f4f6;
+  color: #333;
+}
+
+.hero-program {
+  margin-bottom: 4rem;
+  background-color: #f3f4f6;
+}
+.hero-program h2,
+.nursery-banner h2 {
+  color: #84cc16;
+  font-size: 34px;
+}
+.hero-program p,
+.nursery-banner .intro {
+  color: #1f2937;
+  font-size: 20px;
+}
+.courses {
+  padding: 2% 12%;
+}
+.program {
+  padding: 4% 12%;
+  background-color: #bef264;
+}
+.enroll-btn {
+  border: none;
+  background-color: #fff;
+  padding: 10px 54px;
 }
