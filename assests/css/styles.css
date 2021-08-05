@@ -63,15 +63,15 @@ p {
     border-radius: 15px;
 }
 .cta-banner {
-  margin-top: 15px;
-  /* border: 2px solid #bef264; */
-  background-color: #bef264;
+  border: 3px solid #bef264;
+  /* background-color: #bef264; */
   color: #334155;
   font-weight: 500;
 }
 .cta-banner:hover {
   text-decoration: none;
   background-color: #8a5d3b;
+  background-color: #bef264;
   color: #fff;
 }
 
@@ -113,7 +113,6 @@ border-radius: 15px;
 }
 }
 .why-card {
-
   background-color: #fff;
   border-radius: 10px;
 }
@@ -131,7 +130,7 @@ border-radius: 15px;
 
 .footer,
 .why-us {
-  
+  background-color: #fff;
 }
 .footer a {
   color: #333;
@@ -139,9 +138,7 @@ border-radius: 15px;
   }
 
   /* NURSERY PAGE */
-  .nursery-bg{
-    background-image: url('/assests/images/bakground.svg');
-  }
+
   .nursery-banner {
     height: 30vh;
     background-color: #f3f4f6;
@@ -169,12 +166,17 @@ border-radius: 15px;
   margin-right: 10px;
 }
 
-.video-banner {
-  top: 30px;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+/* testimonials */
+
+.testmonial{
+  background-color: #fff;
+}
+.testimonial_title{
+  display: inline-block;
+  width: 400px;
+  margin: 0 auto;
+  padding:30px;
+ background-color: #bef264;
 }
 
 .card {
@@ -230,6 +232,11 @@ border-radius: 15px;
   background-color: #bef264;
 }
 .hero-program h2,
+
+/* Nursery Page styles */
+.nursery-banner{
+  background-color: #fff;
+}
 .nursery-banner h2 {
   color: #000;
   /* font-size: 34px; */
