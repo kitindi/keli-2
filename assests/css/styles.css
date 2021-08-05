@@ -16,6 +16,9 @@ a {
   text-decoration: none;
 }
 
+img{
+  object-fit: cover;
+}
 .heading-2{
   font-weight: 600;
   margin-bottom: 1.2rem;
@@ -78,6 +81,7 @@ p {
 .fs {
   font-size: 17px;
 }
+
 /* Welcome styles */
 .welcome{
   background-color: #fff;
@@ -115,6 +119,7 @@ border-radius: 15px;
 .why-card {
   background-color: #fff;
   border-radius: 10px;
+  margin-bottom: .75rem;
 }
 
 @media (min-width: 768px) {
@@ -150,6 +155,11 @@ border-radius: 15px;
   .services {
   }
 }
+
+
+
+
+
 .footer {
   background-color: #fff;
 }
@@ -276,6 +286,31 @@ border-radius: 15px;
   padding: 3% 8%;
   background-color: #f9fafb;
 }
-.contact-page {
-  margin-bottom: 2rem;
+
+/* Contacts page */
+.contact-page__body{
+  background-color: #fff;
+}
+.contact-page{
+  height: 100vh;
+  background-color: #fff;
+  padding:8%;
+  margin-bottom: 10%;
+  
+}
+ion-icon {
+  color: #bef264;
+  font-size: 24px;
+}
+.contact-intro{
+  padding-left: 2rem;
+  border-left: 4px solid #bef264;
+}
+.blocks{
+  background-color: #bef264;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }

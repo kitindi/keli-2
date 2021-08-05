@@ -43,7 +43,7 @@
 
     <link rel="stylesheet" href="./assests/css/styles.css" />
   </head>
-  <body>
+  <body class="contact-page__body">
     <!-- Header -->
     <section id="header" class="shadow-sm">
       <div class="container">
@@ -122,8 +122,9 @@
                 </li>
                 <li class="nav-item">
                   <a
-                    class="btn cta-banner btn-lg"
+                    class="btn cta-banner fw-bold"
                     href="https://www.paypal.com/paypalme/Kibogoji?locale.x=en_US"
+                    target="_blank"
                     >Donate Today</a
                   >
                 </li>
@@ -136,27 +137,53 @@
     <!-- main -->
     <section class="contact-page">
       <div class="container">
-        <div class="row">
-          <div class="col text-center">
-            <p class="contact-title fw-bold">Get in Touch</p>
-            <p class="">
-              Have a question or need directions? We’re here to help you get to
-              the right information.
-            </p>
-          </div>
+        <div class="row px-4">
+          <h2 class="fw-bolder fs-1">Get in touch</h2>
         </div>
         <div class="row">
-          <div class="col-md-6 text-center">
-            <p class="text-uppercase fs-5 fw-bold">Mailing Address</p>
+          <div
+            class="
+              col-md-5
+              contact-intro
+              d-flex
+              justify-content-center
+              align-items-center
+              p-3
+            "
+          >
             <p>
-              Kibogoji Experiential learning Inc<br />
-              P.O Box 000000<br />
-              Turiani, Morogoro
+              <span class="fw-bold">Kibogoji nursery school </span>is proud to
+              serve the needs of our students, families and the community. You
+              are welcome to connect with us by paying visit, email or calling
+              our school office.
             </p>
           </div>
-          <div class="col-md-6 text-center">
-            <p class="text-uppercase fs-5 fw-bold">Phone Number(s)</p>
-            <p>+255757639 149<br /></p>
+          <div class="col-md-4 p-3">
+            <div><h4 class="fw-bold">Find Us</h4></div>
+            <div>
+              <ion-icon name="location-outline"></ion-icon>
+              <p class="small">
+                <span class="fw-bold">KIBOGOJI NURSERY SCHOOL</span><br />
+                Turiani, Morogoro<br />
+                Tanzania.
+              </p>
+              <p class="small fw-bold align-items-center">
+                <span class="m-2"
+                  ><ion-icon name="call-outline"></ion-icon></span
+                >+255 0757 639149
+              </p>
+              <p class="small fw-bold d-flex align-items-center">
+                <span class="m-2"
+                  ><ion-icon name="mail-outline"></ion-icon
+                ></span>
+                admissions@keli.org
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="blocks">
+              <p class="fw-bold">GET ADMISSION FORM</p>
+            </div>
           </div>
         </div>
       </div>
@@ -228,5 +255,13 @@
     <script>
       AOS.init();
     </script> -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
