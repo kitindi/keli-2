@@ -293,18 +293,17 @@ border-radius: 15px;
 }
 .contact-page{
   height: 100vh;
-  background-color: #fff;
-  padding:8%;
-  margin-bottom: 10%;
-  
+  background-color: #F3F4F6;
+  padding:5% 8%;
+  margin-bottom: 20%;  
 }
 ion-icon {
-  color: #bef264;
-  font-size: 24px;
+  color: #84CC16;
+  font-size: 18px;
 }
 .contact-intro{
-  padding-left: 2rem;
-  border-left: 4px solid #bef264;
+ 
+ 
 }
 .blocks{
   background-color: #bef264;
@@ -313,4 +312,11 @@ ion-icon {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+.left-grid{
+  background-color: #E5E7EB;
+}
+.left-grid a{
+  text-decoration: none;
+    color: #334155;
 }
