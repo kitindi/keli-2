@@ -52,6 +52,7 @@ p {
 }
 #header{
   background-color: #fff;
+  padding: 4% 0;
  
 }
 .banner-section {
@@ -385,5 +386,13 @@ ion-icon {
   .welcome{
   background-color: #fff;
   padding: 5%;
+}
+.footer-logo{
+  width: 50%;
+}
+.nursery-title{
+  position: relative;
+  font-size: 34px;
+  color: #FFF;
 }
 }
