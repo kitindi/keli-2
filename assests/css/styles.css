@@ -293,9 +293,9 @@ border-radius: 15px;
 }
 .contact-page{
   height: 100vh;
-  background-color: #F3F4F6;
+  background-color: #FFF;
   padding:5% 8%;
-  margin-bottom: 20%;  
+  margin-bottom: 25%;  
 }
 ion-icon {
   color: #84CC16;
