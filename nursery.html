@@ -43,14 +43,18 @@
 
     <link rel="stylesheet" href="./assests/css/styles.css" />
   </head>
-  <body>
+  <body class="contact-page__body">
     <!-- Header -->
     <section id="header" class="shadow-sm">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img src="./assests//images/keli_logo.svg" alt="" />
+              <img
+                src="./assests//images/keli_logo.svg"
+                alt="logo"
+                class="img-fluid"
+              />
             </a>
             <button
               class="navbar-toggler"
@@ -122,10 +126,10 @@
                 </li>
                 <li class="nav-item">
                   <a
-                    class="btn cta-banner fw-bold"
+                    class="cta-banner fw-bolder"
                     href="https://www.paypal.com/paypalme/Kibogoji?locale.x=en_US"
                     target="_blank"
-                    >Donate Today</a
+                    >DONATE</a
                   >
                 </li>
               </ul>
@@ -136,26 +140,70 @@
     </section>
     <!-- main -->
     <section class="nursery-banner">
-      <div class="container-fluid">
-        <div class="row d-flex align-items-center">
-          <!-- <div class="div">
-            <p class="h2 fw-bold">Kibogoji Nursery School</p>
-          </div> -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="nursery-title fw-bolder">
+              Kibogoji Nursery <br />
+              School
+            </h1>
+            <p class="text-light">
+              Elementary School, Grade KG1 - 2<br />
+              Founded in 2021
+            </p>
+            <a href="/contact.html" class="cta-banner fw-bolder"> APPLY NOW</a>
+          </div>
         </div>
       </div>
     </section>
-    <!-- Programs -->
-    <section class="programs">
+    <!-- Profile -->
+    <section class="nursery-bio">
       <div class="container">
         <div class="row">
-          <div class="col-md-6"><h2 class="heading">Our Approach</h2></div>
-          <div class="col-md-6"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-5">
-            <div></div>
+          <div class="col-md-5 py-5">
+            <div class="row">
+              <div class="icon-box col-md-6 p-3">
+                <div class="icon"><i class="fas fa-school"></i></div>
+                <div class="icon-context">
+                  <p class="fw-bolder">
+                    <span class="fw-bold fs-5">Grades</span>
+                    <br />KG1- KG2
+                  </p>
+                </div>
+              </div>
+              <div class="icon-box col-md-6 p-3">
+                <div class="icon"><i class="fas fa-flag"></i></div>
+                <div class="icon-context">
+                  <p class="fw-bolder">
+                    <span class="fw-bold fs-5">Founded </span><br />2021
+                  </p>
+                </div>
+              </div>
+              <div class="icon-box col-md-6 p-3">
+                <div class="icon">
+                  <i class="fas fa-chalkboard-teacher"></i>
+                </div>
+                <div class="icon-context">
+                  <p class="fw-bolder">
+                    <span class="fw-bold fs-5">Teachers</span><br />
+                    4
+                  </p>
+                </div>
+              </div>
+              <div class="icon-box col-md-6 p-3">
+                <div class="icon"><i class="fas fa-users"></i></div>
+
+                <div class="icon-context">
+                  <p class="fw-bolder">
+                    <span class="fw-bold fs-5">Students</span>
+                    <br />
+                    40+
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-7">
+          <div class="col-md-7 py-5 bio-content">
             <p>
               We at Kibogoji are moving into the future to enhance the positive
               and professional relationships within the Turiani community. Our
@@ -166,43 +214,56 @@
               and relaxing way of working and being together to create the best
               possible learning environment for our children and their families.
             </p>
-            <p>In our collaboration, we will:</p>
-            <div class="listings">
-              <div class="box"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bio-img">
+      <div class="container">
+        <div class="row py-5">
+          <h1 class="fw-bold bio-title">
+            In our collaboration,<br />
+            we will
+          </h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="img-border">
+              <img
+                src="/assests/images/nursery-3.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div>
               <div class="content">
                 Recognize and nurture the stories, experiences, and learning
                 potential that enrich our image of the child
               </div>
-            </div>
-            <div class="listings">
-              <div class="box"></div>
+
               <div class="content">
                 Provide an environment rich with materials that enable children
                 to express their ideas and explore their experiences
               </div>
-            </div>
-            <div class="listings">
-              <div class="box"></div>
+
               <div class="content">
                 Observe, listen, question, and interact with the children,
                 acting as research
               </div>
-            </div>
-            <div class="listings">
-              <div class="box"></div>
+
               <div class="content">
                 document the children's work as it progresses
               </div>
-            </div>
-            <div class="listings">
-              <div class="box"></div>
+
               <div class="content">
                 Recognize parents and include them as an integral part of the
                 educational process
               </div>
-            </div>
-            <div class="listings">
-              <div class="box"></div>
+
               <div class="content">
                 Provide a comfortable, home-like environment filled with
                 opportunities for communicating and relating
@@ -212,105 +273,62 @@
         </div>
       </div>
     </section>
-    <!-- STEM -->
-    <section class="stem">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="heading">KELI is a STEM learning program.</h2>
-          </div>
-          <div class="col-md-6"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-5 mb-3">
-            <div>
-              <img src="./assests/images/stem-1.jpg" alt="" class="img-fluid" />
-            </div>
-          </div>
-          <div class="col-md-7">
-            <p>
-              STEM stands for Science, Technology, Engineering, and Mathematics.
-            </p>
-            <p>
-              In Kibogoji's early education programs, our STEM-inspired
-              curriculum integrates the core principles of science, technology,
-              engineering, and mathematics throughout classroom areas and daily
-              routines. It connects academic skills to practical, real-world
-              application, so learning becomes meaningful to children's everyday
-              life.
-            </p>
-            <p>
-              When you step into our early years' classroom, you will be greeted
-              by engaged and happy children making the most of their time in our
-              well-equipped, bright, and spacious facilities
-            </p>
-            <p class="fw-bold fs-4">Why STEM?</p>
-            <p>
-              Thank you for asking. STEM learning encourages innovations,
-              critical thinking, problem-solving skills, and creativity,
-              resulting in a capable, multi-faceted whole child. Through STEM,
-              children build the skills necessary to navigate the world around
-              them. Making connections between diverse skills and concepts is
-              the way children learn.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="admission">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="heading">Apply for Admission</h2>
-          </div>
-          <div class="col-md-6"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            <img src="./assests/images/school.svg" alt="" class="img-fluid" />
-          </div>
-          <div class="col-md-9 bg-successs">
-            <p>
-              The school enrolls children aged between 2- 5 in our nursery
-              school program. The start of a new school year is Monday, January
-              10th, 2022. The school year has two semesters- January to May and
-              July to December.
-            </p>
-            <p class="fw-bold fs-5">Enrollment Process</p>
-            <div class="d-flex align-items-start">
-              <span class="order">1</span>
-              <p>
-                We offer tours of the facility on Mondays, Wednesdays, and
-                Fridays of each week. Please take your time to visit us.
-              </p>
-            </div>
-            <div class="d-flex align-items-start">
-              <span class="order">2</span>
-              <p>
-                Fill out our Student Enrollment Application. Bring your filled
-                application form together with the enrollment fee to the center.
-              </p>
-            </div>
-            <div class="d-flex align-items-start">
-              <span class="order">3</span>
-              <p>
-                Wait for your enrollment acceptance letter within two weeks of
-                submitting your application.
-              </p>
-            </div>
+    <!-- School bio -->
+    <!-- Get admissions -->
+    <section class="admissions">
+      <div class="row">
+        <div class="col-md-6 admissions-content">
+          <h2 class="fs-1 fw-bold admission-title">Admission</h2>
 
-            <div class="row mt-4 p-2">
-              <div class="col-md-5 text-center p-3 downloads me-3">
-                Download Admission Form
-              </div>
-              <div class="col-md-5 text-center p-3 downloads ms-3">
-                Fee Structure
-              </div>
-            </div>
+          <p>
+            The school enrolls children aged between 2- 5 in our nursery school
+            program. The start of a new school year is Monday, January 10th,
+            2022. The school year has two semesters- January to May and July to
+            December.
+          </p>
+          <div>
+            <p class="fs-4 fw-bold">Enrollment Process</p>
+          </div>
+          <div>
+            <p>
+              <ion-icon name="bookmark" class="admission-icon"></ion-icon>
+              We offer tours of the facility on Mondays, Wednesdays, and Fridays
+              of each week. Please take your time to visit us.
+            </p>
+          </div>
+          <div>
+            <p>
+              <ion-icon name="bookmark" class="admission-icon"></ion-icon>
+              Fill out our Student Enrollment Application. Bring your filled
+              application form together with the enrollment fee to the center.
+            </p>
+          </div>
+          <div>
+            <p>
+              <ion-icon name="bookmark" class="admission-icon"></ion-icon>
+              Wait for your enrollment acceptance letter within two weeks of
+              submitting your application.
+            </p>
+          </div>
+          <div class="download-cta">
+            <a href="" class="cta-banner fw-bolder my-5"
+              >ADMISSION FORM
+              <ion-icon name="download-outline" class="download"></ion-icon
+            ></a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="admission-img">
+            <img
+              src="/assests/images/student.png"
+              alt="student"
+              class="img-fluid"
+            />
           </div>
         </div>
       </div>
     </section>
+    <!-- end admission -->
 
     <!-- footer -->
     <footer class="footer">
@@ -318,7 +336,11 @@
         <div class="row">
           <div class="col-md-2">
             <a class="navbar-brand" href="/index.html">
-              <img src="./assests//images/keli_logo.svg" alt="" />
+              <img
+                src="./assests//images/keli_logo.svg"
+                alt="logo"
+                class="img-fluid"
+              />
             </a>
           </div>
           <div class="col-md-4 pt-2 d-flex flex-column">
@@ -369,9 +391,13 @@
       crossorigin="anonymous"
     ></script>
     <!-- Scroll JS -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

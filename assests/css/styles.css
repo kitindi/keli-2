@@ -2,13 +2,15 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  color: #334155;
+  color: #17345B;
   /* background-color:#F3F4F6; */
   background-color: #E5E7EB;
   font-family: "Open Sans", sans-serif;
 }
 
-
+a.nav-link{
+ color: #17345B; 
+}
 ul {
   list-style: none;
 }
@@ -17,6 +19,8 @@ a {
 }
 
 img{
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .heading-2{
@@ -44,11 +48,11 @@ p {
 }
 .fas {
   font-size: 44px;
-  color: #8a5d3b;
-  color: #bef264;
+  color: #17345B;
 }
 #header{
   background-color: #fff;
+ 
 }
 .banner-section {
   height: 90vh;
@@ -66,16 +70,18 @@ p {
     border-radius: 15px;
 }
 .cta-banner {
-  border: 3px solid #bef264;
+  background-color: #BAC639;
+  border: none;
+  padding: 12px 24px;
   /* background-color: #bef264; */
-  color: #334155;
+  color: #17345B;
   font-weight: 500;
+  font-size: 1.2rem;
 }
 .cta-banner:hover {
   text-decoration: none;
-  background-color: #8a5d3b;
-  background-color: #bef264;
-  color: #fff;
+ background-color: #BAC639;
+ color: #17345B;
 }
 
 .fs {
@@ -130,68 +136,65 @@ border-radius: 15px;
 
 .heading-1 {
   margin-bottom: 2rem;
-  color: #334155;
+  color: #17345B;}
+
+  .stem-program{
+    padding: 5% 8%;
+    color: #FFF;
+    background-color: #17345B;
+  }
+   .stem-program .stem-cta {
+     display: inline-block;
+     padding: 12px 24px;
+     width: 200px;
+     text-align: center;
+     text-decoration: none;
+       color: #17345B;
+     background-color: #BAC639;
+     margin: 1.5rem auto;
+   }
+.admissions{
+  padding: 5% 10%;
+   background-color: #17345B;
 }
+
+.admissions-content{
+  padding: 20px ;
+ /* background-color: #F1F5F9; */
+ color: #17345B;
+ color: #FFF;
+}
+.admission-title{
+  margin-bottom: 2rem;
+}
+.admission-icon, .download{
+   color: #17345B;
+    color: #FFF;
+  font-size: 20px;
+}
+.download-cta{
+  margin: 2rem 0;
+}
+.admission-img{
+ padding: 20px ;
+}
+
+
 
 .footer,
 .why-us {
   background-color: #fff;
 }
 .footer a {
-  color: #333;
-  .nursery-intro {
-  }
-
-  /* NURSERY PAGE */
-
-  .nursery-banner {
-    height: 30vh;
-    background-color: #f3f4f6;
-  }
-  .quarter-dv {
-    background-color: #8a5d3b;
-  }
-
-  .services {
-  }
+  color: #17345B;
 }
 
-
-
-
-
+ /* Footer Styles */
 .footer {
   background-color: #fff;
 }
-.listings {
-  padding: 5px 0;
-  display: flex;
-  align-items: center;
-}
 
-.box {
-  width: 10px;
-  height: 10px;
-  background-color: #8a5d3b;
-  margin-right: 10px;
-}
 
-/* testimonials */
-
-.testmonial{
-  background-color: #fff;
-}
-.testimonial_title{
-  display: inline-block;
-  width: 400px;
-  margin: 0 auto;
-  padding:30px;
- background-color: #bef264;
-}
-
-.card {
-  background-color: #f3f4f6;
-}
 .grid-box {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -202,21 +205,10 @@ border-radius: 15px;
 }
 .cta:hover {
   background-color: #8a5d3b;
-  color: #fff;
+  color: #17345B;
 }
 
-.order {
-  width: 30px;
-  height: 30px;
-  padding: 3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100%;
-  color: #fff;
-  margin-right: 15px;
-  background-color: #8a5d3b;
-}
+
 .admission {
   background-color: #f3f4f6;
 }
@@ -228,77 +220,88 @@ border-radius: 15px;
 .downloads:hover {
   border-bottom: 3px solid #bac639;
   background-color: #bac639;
-  color: #fff;
+  color: #17345B;
 }
 
 .dropdown-menu a:active {
   background-color: #f3f4f6;
-  color: #333;
+color: #17345B;
 }
 
+
+/*  Enrichmnet page styles*/
 .hero-program {
   margin-bottom: 4rem;
-  /*  */
   background-color: #bef264;
 }
-.hero-program h2,
+
 
 /* Nursery Page styles */
 .nursery-banner{
-  position: relative;
-  background-color: #fff;
-  height: 65vh;
+  height: 70vh;
   background-image: url(/assests/images/nursery-banner.jpg);
+  background-color: #64748B;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  mix-blend-mode: multiply;
-}
-.nursery-banner .container-fluid{
- /* position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color: #bef264; */
-   opacity: 0.8;
-   padding: 0 2%;
-}
-.div{
-  background-color: #D1D5DB;
-  width: 50%;
-  padding: 3rem;
-  
-}
-.nursery-banner h2 {
-  color: #000;
-  /* font-size: 34px; */
-}
-.hero-program p,
-.nursery-banner .intro {
-  color: #1f2937;
-  font-size: 20px;
-}
-.h1-100{
-  height: 100%;
-}
-.courses {
-  padding: 2% 12%;
-}
-.program {
-  padding: 4% 12%;
-  background-color: #fff;
-}
-.enroll-btn {
-  border: none;
-  background-color: #bef264;
-  padding: 10px 54px;
-}
-.right {
-  background-color: #f3f4f6;
-  padding: 2px;
+ background-blend-mode:multiply;
 }
 
+.nursery-title{
+  position: relative;
+  font-size: 64px;
+  color: #FFF;
+}
+.nursery-title::before{
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 2px;
+  top: 10;
+  background-color: #BAC639;
+}
+.nursery-banner h2 {
+ color: #17345B;
+}
+.nursery-bio{
+  padding: 5% 8%;
+  background-color: #F1F5F9;
+}
+.icon-box{
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  row-gap: 10px;
+}
+.bio-img{
+   padding: 5% 8%;
+}
+.img-border{
+  border: 10px solid #17345B;
+}
+.bio-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.content{
+  margin-bottom: 1rem;
+  padding:.75rem;
+   background-color: #F1F5F9;
+ 
+}
+.bio-title{
+  position: relative;
+}
+.bio-title::before{
+    position: absolute;
+  content: "";
+  width: 150px;
+  height: 2px;
+  top: 10;
+  background-color: #BAC639;
+}
+
+/* ENTREPRENEURSHIP STYLES */
 .entrepreneurship {
   height: 90vh;
   padding: 4% 8%;
@@ -324,7 +327,7 @@ border-radius: 15px;
   margin-bottom: 30%;  
 }
 ion-icon {
-  color: #84CC16;
+  color: #17345B;
   font-size: 18px;
 }
 .contact-intro{
@@ -344,5 +347,43 @@ ion-icon {
 }
 .left-grid a{
   text-decoration: none;
-    color: #334155;
+   color: #17345B;
+}
+
+/* MOBILE SCREENS */
+@media(max-width:768px){
+  .admissions{
+  padding: 5%;
+   background-color: #17345B;
+}
+.contact-page{
+  height: 100vh;
+  background-color: #FFF;
+  padding:5%;
+  margin-bottom: 30%;  
+}
+.footer {
+  padding: 5%;
+  background-color: #f9fafb;
+}
+.entrepreneurship {
+  height: 90vh;
+  padding: 5%;
+}
+.bio-img{
+   padding: 5%;
+}
+.nursery-bio{
+  padding: 5%;
+  background-color: #F1F5F9;
+}
+  .stem-program{
+    padding: 5%;
+    color: #FFF;
+    background-color: #17345B;
+  }
+  .welcome{
+  background-color: #fff;
+  padding: 5%;
+}
 }
