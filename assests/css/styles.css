@@ -31,9 +31,7 @@ p {
   font-size: 17px;
   line-height: 1.8;
 }
-.btn{
-  font-weight: 600;
-}
+
 .why-us,
 .nursery-intro,
 .testmonial,
@@ -52,7 +50,7 @@ p {
 }
 #header{
   background-color: #fff;
-  padding: 4% 0;
+  padding: 1% 0;
  
 }
 .banner-section {
@@ -239,6 +237,8 @@ color: #17345B;
 
 /* Nursery Page styles */
 .nursery-banner{
+  display: flex;
+  align-items: center;
   height: 70vh;
   background-image: url(/assests/images/nursery-banner.jpg);
   background-color: #64748B;
@@ -298,10 +298,57 @@ color: #17345B;
   content: "";
   width: 150px;
   height: 2px;
-  top: 10;
+  top: 0;
   background-color: #BAC639;
 }
 
+.gallery{
+   padding: 5% 8%;
+   display: flex;
+   justify-content: center;
+}
+.img-label{
+  padding: 4px 12px;
+  background-color: #bef264;
+}
+.img-item{
+  position: relative;
+  cursor: pointer;
+}
+.overlay {
+ transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.img-overlay{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.img-item:hover .img-overlay {
+  opacity: 0.4;
+}
+.img-item:hover .overlay {
+  opacity: 1;
+}
+
+.team{
+  padding: 6% 8%;
+}
+.team-img{
+  border: 5px soild #17345B;
+}
+.team-info{
+  margin-bottom: 1.5rem;
+}
 /* ENTREPRENEURSHIP STYLES */
 .entrepreneurship {
   height: 90vh;
@@ -386,6 +433,10 @@ ion-icon {
   .welcome{
   background-color: #fff;
   padding: 5%;
+}
+.gallery,
+.team{
+  padding: 5% ;
 }
 .footer-logo{
   width: 50%;
