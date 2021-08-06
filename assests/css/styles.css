@@ -400,6 +400,11 @@ ion-icon {
 
 /* MOBILE SCREENS */
 @media(max-width:768px){
+  #header{
+  background-color: #fff;
+  padding: 2% 0;
+ 
+}
   .admissions{
   padding: 5%;
    background-color: #17345B;
