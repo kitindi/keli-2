@@ -53,6 +53,16 @@ p {
   padding: 1% 0;
  
 }
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: 3px solid #BAC639;
+    border: none;
+    box-shadow: none;
+}
 .banner-section {
   height: 90vh;
   padding: 2rem 0 0 0;
@@ -71,7 +81,7 @@ p {
 .cta-banner {
   background-color: #BAC639;
   border: none;
-  padding: 12px 24px;
+  padding: 8px 24px;
   /* background-color: #bef264; */
   color: #17345B;
   font-weight: 500;
@@ -199,13 +209,7 @@ border-radius: 15px;
   grid-template-columns: repeat(2, 1fr);
   gap: 1px;
 }
-.cta {
-  background-color: #bef264;
-}
-.cta:hover {
-  background-color: #8a5d3b;
-  color: #17345B;
-}
+
 
 
 .admission {
@@ -348,6 +352,18 @@ color: #17345B;
 }
 .team-info{
   margin-bottom: 1.5rem;
+}
+
+/* ENRICHMENT PROGRAM */
+
+.enrichment{
+  padding: 6% 8%;
+  background-color: #17345B;
+  color: #FFF;
+}
+.enrich-title{
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
 /* ENTREPRENEURSHIP STYLES */
 .entrepreneurship {
